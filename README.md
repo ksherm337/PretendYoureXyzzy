@@ -5,7 +5,7 @@ The Offensive Game (forked from Pretend You're Xyzzy)
 
 I am not the orinigal author. All credit goes to:
 
-https://github.com/ajanata/PretendYoureXyzzy
+https://github.com/ajanata/PretendYoureXyzzy  
 https://pretendyoure.xyz/zy/
 
 I am merely expanding upon this project for use on my own servers.
