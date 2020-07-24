@@ -33,28 +33,22 @@ to, for instance, display the number of connected players.
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Pretend You're Xyzzy</title>
+<title>The offensive game</title>
 <jsp:include page="analytics.jsp" />
 <link rel="stylesheet" type="text/css" href="cah.css" media="screen" />
 </head>
 <body>
-<div id="tweetbox">
-  <h3>Recent tweets (mainly server status updates)</h3>
-  <a class="twitter-timeline" data-height="500" data-dnt="true" data-theme="light"
-  href="https://twitter.com/_PYX_?ref_src=twsrc%5Etfw">Tweets by _PYX_</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 <h1>
-  Pretend You're <dfn style="border-bottom: 1px dotted black"
-  title="Xyzzy is an Artificial Unintelligence bot. You'll be making more sense than him in this game.">
-  Xyzzy</dfn>
+  <dfn style="border-bottom: 1px dotted black"
+  title="Offend people as much as possible.">Politically Incorrect
+  </dfn> Card Game
 </h1>
-<h3>A Cards Against Humanity clone.</h3>
+<h3>Based on the game Cards Against Humanity.</h3>
 <p>
   Your computer's IP address will <strong>always</strong> be logged when you load the game client.
   It is not tied in any way to your username, except possibly if a server error occurs. Gameplay
-  results are logged permanently, but without information identifying you.
-</p>
+  results are logged permanently, but without information identifying you. We do not identify you as an individual to any capacity.
+</p><!--
 <p>Recent Changes:</p>
 <ul>
   <li>3 September 2018:<ul>
@@ -64,6 +58,7 @@ to, for instance, display the number of connected players.
   </ul></li>
   <li><a href="changelog.html">Older entries.</a></li>
 </ul>
+
 <p>Known issues:</p>
 <ul>
   <li><strong>Do not open the game more than once in the same browser.</strong> Neither instance
@@ -120,6 +115,7 @@ to, for instance, display the number of connected players.
   <a href="https://github.com/ajanata/PretendYoureXyzzy/issues/new">new bug on GitHub</a> along with
   a general description of the problem and the time that it happened (include a time zone please!).
 </p>
+-->
 <p>
   <input type="button" value="I have read the above; Take me to the game!"
     onclick="window.location='game.jsp';" />

@@ -60,7 +60,7 @@ CREATE TABLE black_cards (
 );
 
 
-ALTER TABLE black_cards OWNER TO pyx;
+ALTER TABLE black_cards OWNER TO cah;
 
 --
 -- TOC entry 186 (class 1259 OID 17742)
@@ -77,7 +77,7 @@ CREATE TABLE card_set (
 );
 
 
-ALTER TABLE card_set OWNER TO pyx;
+ALTER TABLE card_set OWNER TO cah;
 
 --
 -- TOC entry 187 (class 1259 OID 17750)
@@ -90,7 +90,7 @@ CREATE TABLE card_set_black_card (
 );
 
 
-ALTER TABLE card_set_black_card OWNER TO pyx;
+ALTER TABLE card_set_black_card OWNER TO cah;
 
 --
 -- TOC entry 188 (class 1259 OID 17755)
@@ -103,7 +103,7 @@ CREATE TABLE card_set_white_card (
 );
 
 
-ALTER TABLE card_set_white_card OWNER TO pyx;
+ALTER TABLE card_set_white_card OWNER TO cah;
 
 --
 -- TOC entry 190 (class 1259 OID 17788)
@@ -118,7 +118,7 @@ CREATE SEQUENCE hibernate_sequence
     CACHE 1;
 
 
-ALTER TABLE hibernate_sequence OWNER TO pyx;
+ALTER TABLE hibernate_sequence OWNER TO cah;
 
 --
 -- TOC entry 189 (class 1259 OID 17760)
@@ -132,7 +132,7 @@ CREATE TABLE white_cards (
 );
 
 
-ALTER TABLE white_cards OWNER TO pyx;
+ALTER TABLE white_cards OWNER TO cah;
 
 --
 -- TOC entry 2189 (class 0 OID 17734)

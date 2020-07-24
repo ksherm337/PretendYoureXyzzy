@@ -311,6 +311,7 @@ cah.Game = function(id) {
   $(".card_set", this.optionsElement_).change(cah.bind(this, this.optionChanged_));
   $(".game_hide_password", this.optionsElement_).click(cah.bind(this, this.showOrHidePassword_));
 
+
   $(window).on("resize.game_" + this.id_, cah.bind(this, this.windowResize_));
 };
 
