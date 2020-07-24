@@ -2,8 +2,8 @@
 <%--
 The main game page. This is almost entirely static HTML, other than ensuring that a session is
 created for the user now.
-
 --%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="com.google.inject.Injector" %>
 <%@ page import="com.google.inject.Key" %>
@@ -58,6 +58,7 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" media="screen" />
 
 <jsp:include page="analytics.jsp" />
+
 </head>
 <body id="gamebody">
 
@@ -68,6 +69,11 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
     It is not tied in any way to your username, except possibly if a server error occurs. Gameplay
     results are logged permanently, but without information identifying you.
   </p>
+
+  <!-- this is the portion that appears when you first enter the game page -->
+  <!-- ==================================================================== -->
+
+  <!-- Section of entering your nickname and ID Code -->
   <div id="nickbox">
     <label for="nickname">Nickname:</label>
     <input type="text" id="nickname" value="" maxlength="30" role="textbox"
@@ -81,6 +87,7 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
     <input type="button" id="nicknameconfirm" value="Set" />
     <span id="nickbox_error" class="error"></span>
   </div>
+
   <p><a href="privacy.html"><strong>Hey, this is important:</strong> Read the privacy page for
   details about what gameplay information is collected and how it's shared.</a></p>
   <p>
@@ -95,6 +102,8 @@ boolean allowBlankCards = injector.getInstance(Key.get(new TypeLiteral<Boolean>(
     <a href="license.html">full license information</a>.
   </p>
 </div>
+
+
 
 <div id="canvas" class="hide">
   <div id="menubar">
