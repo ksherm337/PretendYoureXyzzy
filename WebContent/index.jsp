@@ -31,7 +31,7 @@ to, for instance, display the number of connected players.
 <p>Recent Changes:</p>
 <ul>
   <li>24 July, 2020:<ul>
-    <li>All chat and fill-in-the-blank cards have been enabled.</li>
+    <li>Added a new Founders Card Pack. Please try it out at your convenience</li>
   </ul></li>
   <li><a href="changelog.html">Older entries.</a></li>
 </ul>
